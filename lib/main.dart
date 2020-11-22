@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_github/common/global.dart';
 
-void main() {
-  runApp(MyApp());
-}
+void main() => Global.init().then((value) => runApp(MyApp()));
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
