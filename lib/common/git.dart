@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
+
 import 'package:dio/dio.dart';
-import 'package:dio/adapter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_github/common/global.dart';
 import 'package:flutter_github/models/index.dart';
@@ -31,17 +31,17 @@ class Git {
     dio.options.headers[HttpHeaders.authorizationHeader] = Global.profile.token;
 
     // 在调试模式下需要抓包调试，所以我们使用代理，并禁用HTTPS证书校验
-    if (!Global.isRelease) {
-      (dio.httpClientAdapter as DefaultHttpClientAdapter).onHttpClientCreate =
-          (client) {
-        client.findProxy = (uri) {
-          return "PROXY 10.1.10.250:8888";
-        };
-        //代理工具会提供一个抓包的自签名证书，会通不过证书校验，所以我们禁用证书校验
-        client.badCertificateCallback =
-            (X509Certificate cert, String host, int port) => true;
-      };
-    }
+    // if (!Global.isRelease) {
+    //   (dio.httpClientAdapter as DefaultHttpClientAdapter).onHttpClientCreate =
+    //       (client) {
+    //     client.findProxy = (uri) {
+    //       return "PROXY 10.1.10.250:8888";
+    //     };
+    //     //代理工具会提供一个抓包的自签名证书，会通不过证书校验，所以我们禁用证书校验
+    //     client.badCertificateCallback =
+    //         (X509Certificate cert, String host, int port) => true;
+    //   };
+    // }
   }
 
   // 登录接口，登录成功后返回用户信息
@@ -67,7 +67,7 @@ class Git {
   //获取用户项目列表
   Future<List<Repo>> getRepos(
       {Map<String, dynamic> queryParameters, //query参数，用于接收分页信息
-        refresh = false}) async {
+      refresh = false}) async {
     if (refresh) {
       // 列表下拉刷新，需要删除缓存（拦截器中会读取这些信息）
       _options.extra.addAll({"refresh": true, "list": true});

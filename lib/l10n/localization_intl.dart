@@ -67,6 +67,41 @@ class GmLocalizations {
         name: 'cancel', desc: '');
   }
 
+  String get userName {
+    return Intl.message('User name',
+        name: 'userName', desc: '');
+  }
+
+  String get userNameOrEmail {
+    return Intl.message('User name or email',
+        name: 'userNameOrEmail', desc: '');
+  }
+
+  String get userNameRequired {
+    return Intl.message('User name can\'t be empty',
+        name: 'userNameRequired', desc: '');
+  }
+
+  String get password {
+    return Intl.message('Password',
+        name: 'password', desc: '');
+  }
+
+  String get passwordRequired {
+    return Intl.message('Password can\'t be empty',
+        name: 'passwordRequired', desc: '');
+  }
+
+  String get userNameOrPasswordWrong {
+    return Intl.message('User name or password wrong',
+        name: 'userNameOrPasswordWrong', desc: '');
+  }
+
+  String get loginWaiting {
+    return Intl.message('Login...',
+        name: 'loginWaiting', desc: '');
+  }
+
 }
 
 class GmLocalizationsDelegate extends LocalizationsDelegate<GmLocalizations> {
