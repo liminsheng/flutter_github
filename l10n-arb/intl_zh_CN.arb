@@ -5,5 +5,107 @@
     "description": "Title for the application",
     "type": "text",
     "placeholders": {}
-  }
+  },
+    "home": "Github客户端",
+    "@home": {
+      "description": "",
+      "type": "text",
+      "placeholders": {}
+    },
+    "login": "登录",
+    "@login": {
+      "description": "",
+      "type": "text",
+      "placeholders": {}
+    },
+    "noDescription": "无描述",
+    "@noDescription": {
+      "description": "",
+      "type": "text",
+      "placeholders": {}
+    },
+    "theme": "主题",
+    "@theme": {
+      "description": "",
+      "type": "text",
+      "placeholders": {}
+    },
+    "language": "语言",
+    "@language": {
+      "description": "",
+      "type": "text",
+      "placeholders": {}
+    },
+    "logout": "注销",
+    "@logout": {
+      "description": "",
+      "type": "text",
+      "placeholders": {}
+    },
+    "logoutTip": "确定注销?",
+    "@logoutTip": {
+      "description": "",
+      "type": "text",
+      "placeholders": {}
+    },
+    "yes": "是",
+    "@yes": {
+      "description": "",
+      "type": "text",
+      "placeholders": {}
+    },
+    "cancel": "否",
+    "@cancel": {
+      "description": "",
+      "type": "text",
+      "placeholders": {}
+    },
+    "userName": "用户名",
+    "@userName": {
+      "description": "",
+      "type": "text",
+      "placeholders": {}
+    },
+    "userNameOrEmail": "用户名或邮箱",
+    "@userNameOrEmail": {
+      "description": "",
+      "type": "text",
+      "placeholders": {}
+    },
+    "userNameRequired": "用户名不能为空",
+    "@userNameRequired": {
+      "description": "",
+      "type": "text",
+      "placeholders": {}
+    },
+    "password": "密码",
+    "@password": {
+      "description": "",
+      "type": "text",
+      "placeholders": {}
+    },
+    "passwordRequired": "密码不能为空",
+    "@passwordRequired": {
+      "description": "",
+      "type": "text",
+      "placeholders": {}
+    },
+    "userNameOrPasswordWrong": "用户名或密码错误",
+    "@userNameOrPasswordWrong": {
+      "description": "",
+      "type": "text",
+      "placeholders": {}
+    },
+    "loginWaiting": "登录中...",
+    "@loginWaiting": {
+      "description": "",
+      "type": "text",
+      "placeholders": {}
+    },
+    "auto": "跟随系统",
+    "@auto": {
+      "description": "",
+      "type": "text",
+      "placeholders": {}
+    }
 }

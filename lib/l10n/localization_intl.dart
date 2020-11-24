@@ -102,6 +102,11 @@ class GmLocalizations {
         name: 'loginWaiting', desc: '');
   }
 
+  String get auto {
+    return Intl.message('Auto',
+        name: 'auto', desc: '');
+  }
+
 }
 
 class GmLocalizationsDelegate extends LocalizationsDelegate<GmLocalizations> {

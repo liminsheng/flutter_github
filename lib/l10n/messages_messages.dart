@@ -21,6 +21,23 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
-    "title" : MessageLookupByLibrary.simpleMessage("Github Client")
+    "auto" : MessageLookupByLibrary.simpleMessage("Auto"),
+    "cancel" : MessageLookupByLibrary.simpleMessage("Cancel"),
+    "home" : MessageLookupByLibrary.simpleMessage("Github Client"),
+    "language" : MessageLookupByLibrary.simpleMessage("Language"),
+    "login" : MessageLookupByLibrary.simpleMessage("Login"),
+    "loginWaiting" : MessageLookupByLibrary.simpleMessage("Login..."),
+    "logout" : MessageLookupByLibrary.simpleMessage("Logout"),
+    "logoutTip" : MessageLookupByLibrary.simpleMessage("Are you sure logout ?"),
+    "noDescription" : MessageLookupByLibrary.simpleMessage("No description"),
+    "password" : MessageLookupByLibrary.simpleMessage("Password"),
+    "passwordRequired" : MessageLookupByLibrary.simpleMessage("Password can\'t be empty"),
+    "theme" : MessageLookupByLibrary.simpleMessage("Theme"),
+    "title" : MessageLookupByLibrary.simpleMessage("Github Client"),
+    "userName" : MessageLookupByLibrary.simpleMessage("User name"),
+    "userNameOrEmail" : MessageLookupByLibrary.simpleMessage("User name or email"),
+    "userNameOrPasswordWrong" : MessageLookupByLibrary.simpleMessage("User name or password wrong"),
+    "userNameRequired" : MessageLookupByLibrary.simpleMessage("User name can\'t be empty"),
+    "yes" : MessageLookupByLibrary.simpleMessage("Yes")
   };
 }

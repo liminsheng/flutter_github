@@ -21,6 +21,23 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
-    "title" : MessageLookupByLibrary.simpleMessage("Github客户端")
+    "auto" : MessageLookupByLibrary.simpleMessage("跟随系统"),
+    "cancel" : MessageLookupByLibrary.simpleMessage("否"),
+    "home" : MessageLookupByLibrary.simpleMessage("Github客户端"),
+    "language" : MessageLookupByLibrary.simpleMessage("语言"),
+    "login" : MessageLookupByLibrary.simpleMessage("登录"),
+    "loginWaiting" : MessageLookupByLibrary.simpleMessage("登录中..."),
+    "logout" : MessageLookupByLibrary.simpleMessage("注销"),
+    "logoutTip" : MessageLookupByLibrary.simpleMessage("确定注销?"),
+    "noDescription" : MessageLookupByLibrary.simpleMessage("无描述"),
+    "password" : MessageLookupByLibrary.simpleMessage("密码"),
+    "passwordRequired" : MessageLookupByLibrary.simpleMessage("密码不能为空"),
+    "theme" : MessageLookupByLibrary.simpleMessage("主题"),
+    "title" : MessageLookupByLibrary.simpleMessage("Github客户端"),
+    "userName" : MessageLookupByLibrary.simpleMessage("用户名"),
+    "userNameOrEmail" : MessageLookupByLibrary.simpleMessage("用户名或邮箱"),
+    "userNameOrPasswordWrong" : MessageLookupByLibrary.simpleMessage("用户名或密码错误"),
+    "userNameRequired" : MessageLookupByLibrary.simpleMessage("用户名不能为空"),
+    "yes" : MessageLookupByLibrary.simpleMessage("是")
   };
 }

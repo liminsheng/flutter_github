@@ -1,8 +1,110 @@
 {
-  "@@last_modified": "2020-11-23T14:26:41.752545",
+  "@@last_modified": "2020-11-24T19:21:09.911882",
   "title": "Github Client",
   "@title": {
     "description": "Title for the application",
+    "type": "text",
+    "placeholders": {}
+  },
+  "home": "Github Client",
+  "@home": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "login": "Login",
+  "@login": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "noDescription": "No description",
+  "@noDescription": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "theme": "Theme",
+  "@theme": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "language": "Language",
+  "@language": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "logout": "Logout",
+  "@logout": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "logoutTip": "Are you sure logout ?",
+  "@logoutTip": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "yes": "Yes",
+  "@yes": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "userName": "User name",
+  "@userName": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "userNameOrEmail": "User name or email",
+  "@userNameOrEmail": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "userNameRequired": "User name can't be empty",
+  "@userNameRequired": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "password": "Password",
+  "@password": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "passwordRequired": "Password can't be empty",
+  "@passwordRequired": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "userNameOrPasswordWrong": "User name or password wrong",
+  "@userNameOrPasswordWrong": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "loginWaiting": "Login...",
+  "@loginWaiting": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "auto": "Auto",
+  "@auto": {
+    "description": "",
     "type": "text",
     "placeholders": {}
   }
