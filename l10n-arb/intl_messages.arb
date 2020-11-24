@@ -1,0 +1,9 @@
+{
+  "@@last_modified": "2020-11-23T14:26:41.752545",
+  "title": "Github Client",
+  "@title": {
+    "description": "Title for the application",
+    "type": "text",
+    "placeholders": {}
+  }
+}

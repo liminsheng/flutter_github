@@ -1,0 +1,9 @@
+{
+  "@@last_modified": "2020-11-23T10:41:10.989317",
+  "title": "Github客户端",
+  "@title": {
+    "description": "Title for the application",
+    "type": "text",
+    "placeholders": {}
+  }
+}
